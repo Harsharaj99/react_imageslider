@@ -1,0 +1,19 @@
+.parallax-slider {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slider-item {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    transition: opacity 0.5s ease;
+    opacity: 0.5; /* Adjust as needed */
+  }
+  
+  .slider-item.active {
+    opacity: 1;
+  }
